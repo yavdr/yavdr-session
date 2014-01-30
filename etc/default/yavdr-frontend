@@ -8,7 +8,7 @@ loglevel = DEBUG
 frontend = vdr
 # attach always|never|auto
 attach = always
-lirc_socket = /run/lirc/lircd
+lirc_socket = /var/run/lirc/lircd
 lirc_toggle = KEY_PROG1
 lirc_switch = KEY_PROG2
 lirc_power = KEY_POWER2
