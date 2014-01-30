@@ -28,6 +28,7 @@ xine_cmd = /usr/bin/xine --post tvtime:method=use_vo_driver \
 [Xineliboutput]
 xineliboutput_cmd = /usr/bin/vdr-sxfe -f  \
                         -V vdpau -A pulseaudio \
+                        --hud \
                         --post tvtime:method=use_vo_driver \
                         --reconnect --syslog --silent --tcp \
                         --config=/etc/vdr-sxfe/config_xineliboutput \
