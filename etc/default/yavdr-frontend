@@ -17,7 +17,7 @@ bg_detached = /usr/share/yavdr/images/yaVDR_background_detached.jpg
 
 
 [Xine]
-xine = /usr/bin/xine --post tvtime:method=use_vo_driver \
+xine_cmd = /usr/bin/xine --post tvtime:method=use_vo_driver \
             --config /etc/xine/config \
             --keymap=file:/etc/xine/keymap \
             --post vdr --post vdr_video --post vdr_audio --verbose=2 \
