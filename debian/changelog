@@ -1,3 +1,9 @@
+yavdr-session (0.0.1-1yavdr0) precise; urgency=medium
+
+  * add copyright file
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 12 Feb 2014 20:55:50 +0100
+
 yavdr-session (0.0.1-0yavdr0) precise; urgency=medium
 
   * initial build
