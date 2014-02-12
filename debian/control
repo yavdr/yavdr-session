@@ -1,0 +1,11 @@
+Source: yavdr-session
+Maintainer: Lars Hanisch <dvb@flensrocker.de>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: yavdr-session
+Architecture: all
+Depends: ${misc:Depends}, yavdr-frontend, pulseaudio (>= 2.0), upstart (>= 1.8)
+Description: Upstart user-session for vdr-frontend

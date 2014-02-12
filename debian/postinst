@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    configure)
+        [ -e /var/lib/vdr/.config/upstart ] && chown -R vdr:vdr /var/lib/vdr/.config/upstart/
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPERS
+
+exit 0
+
