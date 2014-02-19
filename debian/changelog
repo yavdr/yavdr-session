@@ -1,3 +1,9 @@
+yavdr-session (0.0.2-0yavdr0) precise; urgency=medium
+
+  * new upstream release
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 19 Feb 2014 21:47:11 +0100
+
 yavdr-session (0.0.1-1yavdr0) precise; urgency=medium
 
   * add copyright file
